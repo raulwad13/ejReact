@@ -5,7 +5,7 @@ import "./App.css";
 function App() {
   return (
     <>
-    <h1>hello</h1>
+    <h1>Welcome!</h1>
       <List />
     </>
   );

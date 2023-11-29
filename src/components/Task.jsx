@@ -1,13 +1,14 @@
-import React from 'react'
+import React from "react";
 
-function Task({title, key, deleteTask}) { //Destructuring de props
+function Task({ title, deleteTask }) {
+  //Destructuring de props
   return (
     <>
-    <li>{title}</li>
-    <br/>
-    <button onClick={deleteTask}>Delete Task</button>
+      <li>{title}</li>
+      <br />
+      <button onClick={deleteTask}>Delete Task</button>
     </>
-  )
+  );
 }
 
-export default Task
+export default Task;
